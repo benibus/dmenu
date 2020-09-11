@@ -1,6 +1,13 @@
 dmenu - dynamic menu
 ====================
-dmenu is an efficient dynamic menu for X.
+Personal fork of suckless.org's dmenu - an efficient dynamic menu for X.
+
+
+Patches
+------------
+* fuzzymatch
+* fuzzyhighlight
+* password
 
 
 Requirements
@@ -17,6 +24,12 @@ Afterwards enter the following command to build and install dmenu
 (if necessary as root):
 
     make clean install
+
+
+Configuration
+-------------
+The configuration of dmenu is done by editing config.h and
+(re)compiling the source code.
 
 
 Running dmenu
